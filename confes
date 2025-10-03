@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Uka ina lah amun lagi ganyah puang sibuk😅</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ text-align: center;
+ background-color: #f2f2f2;
+ }
+
+ .container {
+ width: 80%;
+ margin: 40px auto;
+ padding: 20px;
+ border: 1px solid #ddd;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ background-color: #fff;
+ }
+
+ button {
+ padding: 10px 20px;
+ font-size: 16px;
+ cursor: pointer;
+ background-color: #4CAF50;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ }
+
+ button:hover {
+ background-color: #3e8e41;
+ }
+ </style>
+</head>
+<body>
+ <div class="container">
+ <h1>Tembak Crush!</h1>
+ <p>Hai [dara], aku hamen ngeau...</p>
+ <button id="pencet ina-btn">Pencet ina!</button>
+ <div id="hasil"></div>
+ </div>
+
+ <script>
+ document.getElementById("tembak-btn").addEventListener("click", function() {
+ var namaCrush = prompt("Dara:");
+ var kalimat = prompt("wang sebujur ni aku sini hanyu haut teka yari pas pertama mpls yari tapi hanyu nyalah ni puang katuju aku🙄 intini aku ekat ngeau aku sebujur ni katuju hanyu yari ru aku cemburu anying pas naun main kartu uno hanyu riet aldi iru ai😐ada na sebar lah pliss:");
+ document.getElementById("hasil").innerHTML = `<p>Hai ${Dara}, ${kalimat}</p>`;
+ });
+ </script>
+</body>
+</html>
+
